@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Indian Handloom Textures & Weave Motifs */
+.bg-craft-grain {
+  background-image: radial-gradient(rgba(27, 42, 74, 0.06) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+.bg-indigo-loom {
+  background-color: #1B2A4A;
+  background-image: radial-gradient(rgba(216, 155, 44, 0.12) 1px, transparent 0);
+  background-size: 16px 16px;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #D89B2C 0%, #F5CE7B 50%, #B87B16 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F1E7;
+}
+::-webkit-scrollbar-thumb {
+  background: #D89B2C;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7A2734;
+}
+
+model-viewer {
+  width: 100%;
+  height: 100%;
+  --poster-color: transparent;
+  outline: none;
+}
+

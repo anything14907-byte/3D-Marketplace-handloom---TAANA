@@ -1,0 +1,6 @@
+{
+  "name": "Taana - Indian Handloom Marketplace",
+  "description": "A marketplace for authentic Indian handloom products connecting weavers directly with buyers, featuring 3D AR previews, AI storytelling, and native voice dictation for artisans.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
